@@ -81,3 +81,25 @@
     background-color: #228B22;
     color: #fff;
     }
+
+.skill
+    {
+    text-align: center;
+    }
+
+.chart
+    {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+    }
+
+.chart canvas
+    {
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
