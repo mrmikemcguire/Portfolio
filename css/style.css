@@ -1,3 +1,11 @@
+.body
+    {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+    }
+
 .overlay
     {
     width: 100%;
@@ -56,4 +64,20 @@
     {
     font-size: 23px;
     font-weight: 100;
+    }
+
+.section
+    {
+    padding: 100px 0; //100px top and bottom, 0 on sides
+    }
+
+.aboutImage
+    {
+     max-width: 100%;   
+    }
+
+.skillsSection
+    {
+    background-color: #228B22;
+    color: #fff;
     }

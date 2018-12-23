@@ -7,7 +7,8 @@ $(document).ready(function()
         });
 
     var typed = new Typed(".typed", {
-        strings: ["Wannabe Coder", "Chess Enthusiast", "Amatuer Photographer"],
+        strings: ["Family Man","Computer Science Teacher", "Chess Enthusiast",
+         "Amatuer Photographer", "Spartan"],
         typeSpeed: 70,
         loop: true,
         startDelay: 1000,
