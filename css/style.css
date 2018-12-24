@@ -85,6 +85,7 @@
 .skill
     {
     text-align: center;
+    margin-left: 10px;
     }
 
 .chart
@@ -93,7 +94,6 @@
     width: 152px;
     height: 152px;
     display: inline-block;
-    margin-left: 25px;
     text-align: center;
     }
 
@@ -103,3 +103,16 @@
     left: 0;
     top: 0;
     }
+
+    .chart .percent
+        {
+        color: #000;
+        line-height: 152px;
+        display: inline-block;
+        font-size: 35px;
+        }
+
+    .chart .percent:after
+        {
+        content: '%';
+        }
