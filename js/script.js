@@ -66,7 +66,8 @@ $(document).ready(function()
                     var element = $(this);
                     var endVal = parseInt(element.text());
                     element.countup(endVal);
-                    })
+                    });
+
                 countUpFinished = true;
                 }
 
@@ -77,7 +78,7 @@ $(document).ready(function()
             var element = $(this);
             var endVal = parseInt(element.text());
             element.countup(endVal);
-            })
+            });
     });
 
 });
