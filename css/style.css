@@ -78,7 +78,8 @@
 
 .skillsSection
     {
-    background-color: #228B22;
+    /* background-color: #228B22; */
+    background-color: #607d3b;
     color: #fff;
     }
 
@@ -104,15 +105,65 @@
     top: 0;
     }
 
-    .chart .percent
-        {
-        color: #000;
-        line-height: 152px;
-        display: inline-block;
-        font-size: 35px;
-        }
+.chart .percent
+    {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+    }
 
-    .chart .percent:after
-        {
-        content: '%';
-        }
+.chart .percent:after
+    {
+    content: '%';
+    }
+
+.squareItem
+    {
+    margin-top: 30px;
+    position: relative;
+    }
+
+.squareInnerContainer
+    {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    border-top: none;
+    }
+
+.squareInnerContainer:before,
+.squareInnerContainer:after
+    {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 30px;
+    border-bottom: 2px solid #444;
+    }
+
+.squareInnerContainer:before
+    {
+    right: 0px;
+    }
+
+.squareInnerContainer:after
+    {
+    left: 0px;
+    }
+
+.squareContent h2
+    {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #607d3b;
+    }
+
+.squareContent h3
+    {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0
+    }
