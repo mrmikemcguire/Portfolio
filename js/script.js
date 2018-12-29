@@ -73,12 +73,19 @@ $(document).ready(function()
 
         });
 
-        $('.counter').each(function() 
+    $("[data-fancybox]").fancybox();
+
+    $(".items").isotope(
+        {
+        filter: '*';
+        animationOptions:
             {
-            var element = $(this);
-            var endVal = parseInt(element.text());
-            element.countup(endVal);
-            });
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+            }
+        }
+    )
     });
 
 });
