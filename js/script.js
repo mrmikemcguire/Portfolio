@@ -34,7 +34,6 @@ $(document).ready(function()
         }
     });
 
-    $(function() {
         
 
         var skillsTopOffset = $(".skillsSection").offset().top;
@@ -75,18 +74,17 @@ $(document).ready(function()
 
     $("[data-fancybox]").fancybox();
 
+
     $(".items").isotope(
         {
-        filter: '*';
+        filter: '*',
         animationOptions:
             {
             duration: 1500,
             easing: 'linear',
             queue: false
             }
-        }
-    )
-    });
+        })
 
 });
 
