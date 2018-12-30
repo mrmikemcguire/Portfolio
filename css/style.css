@@ -362,3 +362,32 @@
     {
     margin: 0;
     }
+
+#navigation
+    {
+    background-color: #607d3b;
+    padding: 20px 10px;
+    z-index: 100;
+    }
+
+#navigation li
+    {
+    padding: 0 10px;
+    }
+
+#navigation li a
+    {
+    color: #fff;
+    }
+
+.navbar-brand,
+.navbar-brand:hover
+    {
+    color: #fff;
+    }
+
+.navbar-toggler-icon
+    {
+    background: url(../icons/thin-white-hamburger.png);
+    background-size: 100%;
+    }
