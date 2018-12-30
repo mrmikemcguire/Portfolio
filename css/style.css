@@ -350,3 +350,15 @@
     {
     padding: 0;
     }
+
+.copyrightSection
+    {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+    }
+
+.copyrightSection p
+    {
+    margin: 0;
+    }
