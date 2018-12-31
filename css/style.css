@@ -368,6 +368,7 @@
     background-color: #607d3b;
     padding: 20px 10px;
     z-index: 100;
+    width: 100%;
     }
 
 #navigation li
@@ -390,4 +391,10 @@
     {
     background: url(../icons/thin-white-hamburger.png);
     background-size: 100%;
+    }
+
+.fixedNav #navigation
+    {
+    position: fixed;
+    top: 0;
     }
