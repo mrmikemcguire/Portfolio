@@ -8,6 +8,7 @@ $(window).on("load", function()
         $(".items").isotope(
             {
             filter: '*',
+            layoutMode: 'fitRows',
             animationOptions:
                 {
                 duration: 1500,
