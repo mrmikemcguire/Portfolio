@@ -27,8 +27,8 @@ $(document).ready(function()
         });
 
     var typed = new Typed(".typed", {
-        strings: ["Husband", "Father", "Teacher", "Hiker", "Cyclist", "Mustang", "Photographer", "Chessplayer",
-         "Yogi", "Spartan"],
+        strings: ["Husband", "Coder", "Father", "Teacher", "Hiker", "Cyclist", "Mustang", "Photographer", "Chessplayer",
+         "Student of Yoga", "Spartan"],
         typeSpeed: 140,
         loop: true,
         startDelay: 2000,
