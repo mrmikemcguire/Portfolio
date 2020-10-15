@@ -4,7 +4,7 @@ $(window).on("load", function()
         {
         $(".loader").fadeOut(750);
         });
-
+    
         $(".items").isotope(
             {
             filter: '*',
