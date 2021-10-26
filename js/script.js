@@ -4,18 +4,18 @@ $(window).on("load", function()
         {
         $(".loader").fadeOut(750);
         });
-    
-        $(".items").isotope(
+
+    $(".items").isotope(
+        {
+        filter: '*',
+        layoutMode: 'fitRows',
+        animationOptions:
             {
-            filter: '*',
-            layoutMode: 'fitRows',
-            animationOptions:
-                {
-                duration: 1500,
-                easing: 'linear',
-                queue: false
-                }
-            });
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+            }
+        });
     });
 
 $(document).ready(function()
@@ -113,13 +113,13 @@ $(document).ready(function()
         return false;
         });
 
-        $("#navigation li a").click(function(e)
+ /*        $("#navigation li a").click(function(e)
             {
             e.preventDefault();
             var targetElement = $(this).attr("href");
             var targetPosition = $(targetElement).offset().top;
             $("html, body").animate({scrollTop: targetPosition - 50}, "slow");
-            });
+            }); */
 
 
     const nav = $("#navigation");
